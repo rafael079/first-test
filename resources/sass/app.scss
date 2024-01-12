@@ -1,0 +1,23 @@
+// Bootstrap 
+@import "~bootstrap/scss/bootstrap";
+
+* {
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+// Navigation 
+nav {
+    .nav {
+        font-weight: 600;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+// Footer
+footer {
+    .logo {
+        opacity: 0.2;
+    }
+}
